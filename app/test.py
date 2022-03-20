@@ -1,7 +1,7 @@
 import requests
 
 url = "http://zip.cgis.biz/xml/zip.php"
-payload = {"zn": "1700013"}
+payload = {"zn": "1000004"}
 
 r = requests.get(url, params=payload)
 
