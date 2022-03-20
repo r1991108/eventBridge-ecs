@@ -117,7 +117,7 @@ Resources:
 #          WorkingDirectory: CHANGEME # Optional
       Cpu: 256 # Optional
       ExecutionRoleArn: "arn:aws:iam::189388601959:role/ecsTaskExecutionRole" # Optional
-      Family: "testapi_task_definition" # Optional
+      Family: "testapi_task" # Optional
 #      InferenceAccelerators:
 #        - DeviceName: CHANGEME # Optional
 #          DeviceType: CHANGEME # Optional
