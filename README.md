@@ -1,5 +1,5 @@
 # eventBridge-ecs
-eventbridgeで特定の時間をトリガーとして検知し、
+eventbridgeで特定の時刻をトリガーとして検知し、
 時間になったら、ECSを実行させる。
 
 # ECSの実装
