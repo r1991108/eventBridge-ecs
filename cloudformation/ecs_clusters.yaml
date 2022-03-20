@@ -9,7 +9,7 @@ Resources:
       CapacityProviders:
         - FARGATE
         - FARGATE_SPOT
-      ClusterName: "testapi2" # Optional
+      ClusterName: "testapi" # Optional
 #      ClusterSettings:
 #        - Name: CHANGEME # Optional
 #          Value: CHANGEME # Optional
