@@ -6,8 +6,9 @@ eventbridgeで特定の時刻をトリガーとして検知し、
 - `http://zip.cgis.biz/xml/zip.phpのapiを利用して、郵便番号1000004を渡して地域情報をもらう。`
 
 # Cloudformation
-- codepipeline_ecs.yaml：ECSソースのCICDをcodepipelineで実装
-- task_definitions.yaml：タスク定義
-- ecs_clusters.yaml：ECSクラスター
-- ecs_services.yaml：ECSサービス
-- eventbridge.yaml：eventbridgeルール
+- 01_eventbridge.yaml：eventbridgeルール
+- 02_ecr_repository：ECRリポジトリ
+- 03_task_definitions.yaml：タスク定義
+- 04_ecs_clusters.yaml：ECSクラスター
+- 05_ecs_services.yaml：ECSサービス
+- 06_codepipeline_ecs.yaml：ECSソースのCICDをcodepipelineで実装
